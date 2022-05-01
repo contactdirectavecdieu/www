@@ -1,0 +1,4 @@
+<smil><head>  <layout>    <region id="videoregion"  width="0" height="0" fit="meet"/> 
+   <region id="textregion"  width="350" height="55"/>  </layout></head><body>  <par> 
+   <video region="videoregion" clip-begin="0ms" src="jk2.rm"/> 
+   <textstream region="textregion" clip-begin="0ms" src="jk2f.rt"/>  </par></body></smil>

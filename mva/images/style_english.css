@@ -1,0 +1,24 @@
+body, td, p, input, button, textarea, select, .c1 { font-family:Arial,Tahoma,굴림; font-size:9pt; color:#164801; line-height: 150%;}
+
+a:link, a:visited, a:active { text-decoration:none; color:#164801; }
+a:hover { text-decoration:underline; }
+
+a.menu:link, a.menu:visited, a.menu:active { text-decoration:none; color:#164801; }
+a.menu:hover { text-decoration:none; }
+
+.member { font-weight:bold; }
+.guest  { font-weight:normal; }
+
+.lh { line-height: 150%; }
+.jt { text-align:justify; }
+
+.li { font-weight:bold; font-size:18px; vertical-align:-4px; color:#164801; }
+
+.ul { list-style-type:square; color:#164801; }
+
+.ct { font-family: Verdana, 굴림; color:#164801; } 
+
+.ed { border:1px solid #284C83; } 
+.tx { border:1px solid #284C83; } 
+
+.small { font-size:8pt; font-family:돋움; }

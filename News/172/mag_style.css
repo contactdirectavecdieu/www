@@ -1,0 +1,111 @@
+<style>
+
+.IL0 { padding:0; FONT-WEIGHT: bold; COLOR: #8080ff; FONT-SIZE: 0.8em; 
+		FONT-STYLE: italic; MARGIN-BOTTOM: 1.5em; 
+		FONT-FAMILY: "Times New Roman", "Times", "serif"; 
+		LETTER-SPACING: 1pt; TEXT-ALIGN: left; }
+
+.IL1 { padding:0; FONT-WEIGHT: bold; FONT-SIZE: 0.8em; 
+		FONT-STYLE: italic; MARGIN-BOTTOM: 1.5em; 
+		FONT-FAMILY: "Times New Roman", "Times", "serif"; 
+		LETTER-SPACING: 1pt; TEXT-ALIGN: left; }
+
+.IL2 { font-size: 1.8em; line-height: 1.2em; 
+		font-family: Times New Roman MT Extra Bold; 
+        letter-spacing: 1pt; margin-top: 0.5em; margin-bottom: 0.5em;}
+
+.NL2 { MARGIN-TOP: 2em; MARGIN-BOTTOM: 2em; FONT-WEIGHT: 300; 
+		FONT-SIZE: 0.8em;  FONT-STYLE: ; LETTER-SPACING: 0.5pt;
+		TOP: 0px; TEXT-ALIGN: right; font-family:Arial}
+
+.NL3 {MARGIN-TOP: 2em; MARGIN-BOTTOM: 2em; FONT-WEIGHT: 300; 
+		FONT-SIZE: 1em; FONT-STYLE: italic; 
+		LETTER-SPACING: 0.5pt; TOP: 0px; TEXT-ALIGN: right; 
+		font-family:Times New Roman}
+
+.IL3 { MARGIN-TOP: 2em; MARGIN-BOTTOM: 2em; FONT-WEIGHT: 300; 
+		FONT-SIZE: 0.8em; FONT-STYLE: ; 
+		LETTER-SPACING: 0.5pt; TOP: 0px; TEXT-ALIGN: right; 
+		font-family:Arial; }
+
+.IL4 { FONT-WEIGHT: 300; font-family: Arial; 
+		FONT-SIZE: 1em; margin-bottom: -1em}
+
+.IL5 { MARGIN-TOP: 30; MARGIN-BOTTOM: 30; line-height: 120%; text-indent: 0; 
+		font-size: 1em; text-align: Left; 
+		margin-top: 5; FONT-FAMILY: arial; text-decoration:underline; 
+		list-style-type:none}
+
+.PH {FONT-FAMILY: Arial; MARGIN-TOP: 30; MARGIN-BOTTOM: 30;  
+		CLIP: ; TEXT-ALIGN: left LINE-HEIGHT: 80%; FONT-WEIGHT: bold; 
+		FONT-SIZE: 1.1em }
+
+.column {FONT-weight:bold;
+		FONT-SIZE: 1.1em; COLOR: #008000; FONT-FAMILY: "Garamond"; 
+		line-height:135%; margin-top:1.5em; margin-bottom:1.5em;}
+
+.article {FONT-SIZE: 1.1em; COLOR: #828257; FONT-FAMILY: "Garamond"; 
+		 line-height:135%; margin-top:1.5em; margin-bottom:1.5em;}
+
+.memo  { border-right:4px inset #E4E4E4; border-bottom:4px inset #E4E4E4; 
+		font-family: "Arial Narrow"; font-size: 0.9em; color: #003399; 
+		text-align: left;  padding-left: 0px; padding-right: 0px; 
+		padding-top: 5px; padding-bottom: 5px; margin-left:25; 
+		line-height:150%; border-left-width:1px; border-top-width:1px; 
+		margin-right:25; margin-top:6; margin-bottom:5; 
+		background-color:#FBFBE6}
+
+.essay {text-align:left; FONT-SIZE: em; COLOR: #006666; FONT-FAMILY: times;
+		line-height:135%; margin-top:2em; margin-bottom:2em;}
+
+.cap {text-align:left; FONT-SIZE: em; COLOR: #006666; FONT-FAMILY: times;
+		line-height:135%; margin-top:2em; margin-bottom:2em;}
+
+P.ep { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 1em;
+		color: 555555; align:"justify"; text-align: justify; line-height:150%;
+		clip:rect(auto 30px auto 30px); margin-right: 30; margin-left: 30}
+
+P.ni { font-family: "Arial", "Helvetica", "sans-serif";
+		color: #828257; line-height:150%; margin-right: 30; margin-left: 30;
+		margin-top:1em; margin-bottom:1em ; text-align: left;}
+
+P.nj { font-family: "Arial", "Helvetica", "sans-serif";
+		color: #828257; line-height:150%; margin-right: 30; margin-left: 30;
+		margin-top:1em; margin-bottom:1em;}
+
+
+td.navigate {font-weight:bold; font-style:italic; text-align:center;
+	color:white;}
+
+A:link {COLOR: #696a0a; TEXT-DECORATION: none}
+A:visited {COLOR: #8f9105; TEXT-DECORATION: none}
+A:active {COLOR: #458b8b; TEXT-DECORATION: none}
+A:hover {COLOR: #00aa00; TEXT-DECORATION: underline}
+
+.reference   { border-right:4px inset #E4E4E4; border-bottom:4px inset #E4E4E4; 
+		font-family: "Arial Narrow"; font-size: 0.9em; color: #003399; 
+		text-align: left;  padding-left: 0px; padding-right: 0px; 
+		padding-top: 5px; padding-bottom: 5px; margin-left:25; 
+		line-height:150%; border-left-width:1px; border-top-width:1px; 
+		margin-right:25; margin-top:6; margin-bottom:5; 
+		background-color:#FBFBE6 }
+
+.quote {margin:2em 30; text-align:left; FONT-SIZE: em; COLOR: #006666; 
+		FONT-FAMILY: times; line-height:135%; }
+
+.mag_index {color:#CC6699; font-family:arial narrow; font-size:10pt;
+		font-weight:bold;}
+
+H5 {MARGIN-TOP: 0px; FONT-WEIGHT: 300; FONT-SIZE: 9pt; MARGIN-BOTTOM: 8px; 
+    LINE-HEIGHT: 95%; FONT-STYLE: italic; 
+    FONT-FAMILY: Courier New}
+
+H4 {FONT-FAMILY: arial; MARGIN-TOP: 10; MARGIN-BOTTOM: 5;  MARGIN-LEFT: 0px; CLIP: ; COLOR: #808000; TEXT-ALIGN: left LINE-HEIGHT: 80%; FONT-WEIGHT: 400; FONT-SIZE: 1.1em}
+.caption { MARGIN: 30; border:1px solid #CCFF99; line-height: 120%;
+		color: #008080; font-size: 0.87em; text-align: center; 
+		FONT-FAMILY: Arial; background-color:#F0FFF9}
+
+
+
+
+</style>

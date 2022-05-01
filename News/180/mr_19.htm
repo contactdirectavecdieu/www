@@ -1,0 +1,142 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Magazine Pulsar,</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+<style> hr {display:none;} </style>
+<a ep_link name='N19' ep_end></a> </td></tr></table> 
+<table width=598 border=1 cellpadding="0" cellspacing="0" bordercolor="#F0F446">
+  <tr>
+    <td valign="top"> <table width="100%" height="38" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFF99">
+        <tr> 
+          <td width="18%" height="36" bgcolor="#0033CC"> <div align="center"><font face="Times New Roman, Times, serif"><strong><font color="#FFFFFF" size="2"> 
+              <em>Revue de presse</em></font></strong></font></div></td>
+          <td width="82%" bgcolor="#F0F446" class="IL4"> <div align="center"><font color="#0033CC"><strong>
+			<font style="font-size: 26px">Magazine Pulsar,</font></strong> <font style="font-size: 16px"><u><br>février 2007, Autriche (à l'origine en allemand)</u></font><span style="font-size: 16px">
+			</span> </font></div></td>
+        </tr>
+      </table>
+      <p class=ep>
+      <p class=IL2> <font color="#0033CC"><i><span style="font-size: 14px">La lumière 
+        brille dans l'obscurité télévisuelle<br>
+	<br>
+        </span></i>
+        <em><strong><font color="#FFFF00" style="font-size: 30px">Supreme Master Television</font></strong></em> 
+        <br>apporte la lumière au monde de la télévision </font>
+      <p class=IL2>&nbsp;
+      <p class=IL2><font color="#0033CC"><img src="images/mr19-1.jpg" width="289" height="204"></font>
+      <p class=ep> 
+      <div class=NL2> Par Marlis Bach</div>
+      <p class=ep> <font color="#0033CC">On entend toujours les gens se plaindre de la télévision qui ne diffuse que des nouvelles négatives. Mais qui veut en réalité regarder une programmation aussi noire ? Les journalistes de télévision font des recherches précises pour déterminer les programmes appréciés par le public. Et il semble qu'une majorité de téléspectateurs veut du journalisme négatif. Je n'aborderai pas ici les raisons psychologiques de ce constat. </font>
+      <p class=ep><font color="#0033CC"> Dans ce contexte, une chaîne positive a-t-elle des chances ? Récemment ce sujet a justement été abordé lors de la Conférence PSI à Bâle, dans le cadre de discussions portant sur le thème de la programmation réussie : tout le monde s'accordait à dire – y compris Harald Wessbecher – qu'une chaîne de télévision qui ne diffusait que des nouvelles positives n'avait aucune chance de survivre. </font> 
+      <p class=ep><font color="#0033CC"> Peu après, un communiqué de presse annonçait le lancement d'une chaîne de télévision qui s'engageait à ne présenter que du contenu positif. Cette chaîne, Supreme Master Television, a été fondée par l'Association Internationale de Maître Suprême Ching Hai. Cette association a déjà fait parler d'elle à travers le monde pour ses actions humanitaires. </font>
+<p class=PH> <strong>Quel contenu ? </strong> 
+      <p class=ep> <font color="#0033CC">La programmation est plus variée que je ne pensais. Même les titres des émissions sonnent agréablement : Un voyage à travers les royaumes esthétiques, Paroles de Sagesse, Végétarisme – le mode de vie noble. Ces programmes embelliront vos soirées. Peut-être cette chaîne va précisément attirer les gens qui ne veulent pas être submergés par les informations négatives, largement diffusées sur les chaînes traditionnelles. Supreme Master Television s'adresse peut-être à tous ceux qui sont à la recherche d'un monde meilleur et, pour rester sur cette voie, ont besoin d'un petit soutien. En tout cas, je suis très intéressé de savoir comment les gens réagiront à cette chaîne positive. </font>
+<p class=PH> <strong>En ligne ou sur le satellite Hotbird </strong> 
+      <p class=ep> <font color="#0033CC">Techniquement, la chaîne présente deux ou trois obstacles qui ne peuvent pas être ignorés. Le plus simple est de recevoir la chaîne par satellite. Mais la plupart des satellites sont orientés vers Astra qui ne peut pas recevoir Supreme Master Television. Cependant, vous pouvez installer une deuxième antenne parabolique et l'orienter ves Hotbird. Cette solution vous permettra en outre de recevoir de nouvelles chaînes et d'avoir accès à de nombreuses chaînes anglophones. La deuxième solution est d'installer une parabole réglable qui vous permet de choisir Astra ou Hotbird. Ceux qui aiment la télé sur Internent peuvent aussi regarder Supreme Master Television en ligne. Cependant, il vous sera nécessaire de vous enregistrer et de télécharger quelques programmes avant de découvrir les émissions diffusées sur Supreme Master Television. Néanmoins, j'espère vraiment que beaucoup de lecteurs de PULSAR feront le nécessaire pour regarder ses programmes positifs plutôt que les traditionnelles émissions négatives. </font>
+      <p class=reference> <b>Informations</b>: Hotbird 6, 13 Est, Fréquence 10853 
+        MHz<a href="http://suprememastertelevision.com" target="_blank"> www.suprememastertv.com 
+        </a>
+<p class=ep>
+<!--- %----------
+ --->
+<!--- %filename: po1-180e.txt, (none)
+ --->
+
+<center>
+<table width=260 border=1 cellspacing="1" bordercolor="#FFFFCC" bgcolor="#38A8E4">
+<tr><td class=navigate><a href='mr_17.htm' style='color:white'>&lt;&lt;</a></td>
+	<td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+	<td class=navigate><a href='po_21.htm' style='color:white'>&gt;&gt;</a></td>
+</tr>
+
+<tr><td class=navigate colspan=3 align=center>Envoyer cette page à un ami<img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25">
+	</td>
+</tr>
+</table>
+        <!-- end of rim --->
+      <p>&nbsp;</p></center>
+
+
+</td></tr></table>
+
+
+    <p class="IL1">&nbsp;</p>

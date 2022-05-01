@@ -1,0 +1,7 @@
+Options +Indexes
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mva.contactdirectavecdieu.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www.mva.contactdirectavecdieu.org$
+RewriteRule ^(.*)$ http://www.contactdirectavecdieu.org/mva/$1 [R=301,L]
+
