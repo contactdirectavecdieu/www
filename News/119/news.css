@@ -1,8 +1,0 @@
-a:active {  text-decoration: none; color: #9999FF}
-a:visited {  text-decoration: none; color: #6666FF}
-a:link {  text-decoration: none; color: #6666FF}
-a:hover {  color: #339933; text-decoration: underline}
-.bodytext {  font-family: "Times New Roman", "Times", "serif"}
-.name {  font-family: "Times New Roman"; font-style: italic}
-.title { font-family: "Times New Roman"; font-style: bold; font-style: italic; color: blue;
-align: center; font-size: 16pt }
