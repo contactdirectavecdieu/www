@@ -1,0 +1,16 @@
+<smil>
+<head>
+  <layout>
+    <root-layout width="320" height="300" background-color="black"/>
+    <region id="videoregion"  top="0" left="00" width="320" height="240" fit="meet"/>
+    <region id="textregion"  top="245" left="0" width="320" height="55"/>
+  </layout>
+</head>
+<body>
+  <par>
+    <video region="videoregion" clip-begin="0ms" src="mt2-200.rm"/>
+    <textstream region="textregion" clip-begin="0ms" src="mtf.rt"/>
+  </par>
+</body>
+</smil>
+

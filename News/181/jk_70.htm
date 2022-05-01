@@ -1,0 +1,118 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Un échange juste</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'></form>
+  
+<table width="600" border="1" bordercolor="#999966" background="images/jk2.jpg">
+  <tr>
+      
+    <td valign="top"> 
+      <p class="IL1"><font color="#6699CC">Le Maître raconte des histoires drôles </font></p>
+      <div align="center"> 
+        <p>
+          <span class="IL2"><font color="#A27737" style="font-size: 44px"><strong><font color="#FF6633">Un échange juste</font></strong> </font></span> </p>
+        </div>
+      <p class="il1">&nbsp;</p>
+<p class="il1">&nbsp;</p><p class="il1">&nbsp;</p>
+		<p class="il1">&nbsp;</p><p class="il1">&nbsp;</p><p class="il1">&nbsp;</p><p class="il1">&nbsp;</p><p class="il1">&nbsp;</p>
+      <p class="NL2"><font color="#336666"><br>Raconté par Maître Suprême Ching Hai, le 3 février 2003, <br>Floride, Etats-Unis (à l'origine en anglais) DVD n°755</font></p>
+      <p class="ep"> <font color="#993333"><a href="http://www.Godsdirectcontact.org.tw/eng/news/181/rm/jk181-2.rm"><img src="images/realplyr_img.gif" width="73" height="22" border="0" align="texttop"></a>John et Josh entrent dans un restaurant, sortent leurs boîtes de casse-croûte et commencent à manger leurs sandwichs. Le serveur arrive et dit : « Hé ! Vous ne pouvez pas manger vos propres sandwichs ici ! » </font> </p>
+      <p class="ep"><font color="#993333">Alors, ils échangent leurs sandwichs !</font> <font color="#4B5221"><img src="images/end.gif" width="20" height="16" align="texttop"></font> 
+        <!--- %----------
+ --->
+        <!--- %filename: love1-181e.htm, ()
+ ---></div IL2>
+        </p>
+
+          <p class=ep> 
+        <center>
+          
+        <table width=260 border=1 cellspacing="1" bordercolor="#ECFAE7" bgcolor="#66CC66">
+          <tr>
+              <td class=navigate><a href='jk1.htm' style='color:white'>&lt;&lt;</a></td>
+              <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+              <td class=navigate><a href='love_71.htm' style='color:white'>&gt;&gt;</a></td>
+            </tr>
+            <tr>
+              <td class=navigate colspan=3 align=center> Envoyer cette page à un ami <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+            </tr>
+          </table>
+        </center>
+        <p class=ep></td>
+    </tr>
+  </table>
+  
+
+<tr>
+  <td>
+
+<!-- end of rim --->
+</td></tr></table>

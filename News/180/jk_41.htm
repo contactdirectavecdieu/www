@@ -1,0 +1,127 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Grand-père doit être un bon nageur</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY  style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<table width="600" height="827" border="0" cellpadding="0" cellspacing="0" background="images/jk2.jpg">
+  <tr> 
+    <td width="678" height="827" valign="top"><p class="IL1">Le Maître raconte des histoires drôles <br>
+&nbsp;</p>
+	<div class=IL2> <span style="font-size: 33px">Grand-père doit être <br>un bon nageur </span> </div IL2>
+      <p class=ep> 
+      <div class=NL2> 
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+      <blockquote> 
+        <div class=NL2><font color="#996699"></font><font color="#FF3333">Raconté par Maître Suprême Ching Hai, <br>le 3 février 2003, Floride, Etats-Unis <br>
+          </font><font color="#996699"><a href="http://www.godsdirectcontact.org.tw/eng/news/180/rm/jk180-2.rm"><img src="images/realplyr_img.gif" width="73" height="22" border="0" align="texttop"></a></font><font color="#FF3333"> (à l'origine en anglais) DVD n°755 </font></div>
+        <p align="right" class="ep"><font color="#996699"></font> </p>
+        <p class="ep"><font color="#006699">Un garçon demande à son grand-père : <strong><font color="#CC00CC">« Etais-tu sur l'Arche de Noé ? » </font></strong></font></p>
+        <p class="ep"><font color="#FF3333"><strong><font color="#999966">« Non, bien sûr que non ! »,</font></strong></font><font color="#006699"> répond son grand-père. <strong><font color="#CC00CC">« Alors comment se fait-il que tu ne te sois pas noyé ? » </font><font color="#3333CC"><strong><font color="#FF3399"><b><img src="images/end.gif" width="25" height="33" align="texttop"></b></font></strong></font><font color="#CC00CC"> 
+          </font></strong></font></p>
+      </blockquote>
+      <p class=ep><br>
+        <!--- %----------
+ --->
+        <!--- %filename: an2-180e.txt, (none)
+ --->
+      <center>
+        <table width=260 border=1 cellspacing="1" bordercolor="#FFFFCC" bgcolor="#66CC66">
+          <tr> 
+            <td class=navigate><a href='jk1.htm' style='color:white'>&lt;&lt;</a></td>
+            <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+            <td class=navigate><a href='an_42.htm' style='color:white'>&gt;&gt;</a></td>
+          </tr>
+          <tr> 
+            <td class=navigate colspan=3 align=center> Envoyer cette page à un ami <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+          </tr>
+        </table>
+      </center>
+      <!-- end of rim --->
+    </td>
+  </tr></table>

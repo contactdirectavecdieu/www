@@ -1,0 +1,13 @@
+<window type="generic" bgcolor="black" duration="34" version="1.0" width="350" height="60">
+<center><font color="#99ffff" size="3" charset="us-ascii">
+<time begin="0.200" end="2.101"/><clear/>Two friends were talking together,
+<time begin="2.101" end="4.704"/><clear/>and one asked the other,<br/>"What have you been doing lately?"
+<time begin="4.704" end="6.172"/><clear/>And the other friend said,
+<time begin="6.172" end="12.245"/><clear/>"I have taken up<br/>writing full time since last year."
+<time begin="14.247" end="15.748"/><clear/>So the first friend said,
+<time begin="15.748" end="18.918"/><clear/>"Oh, really?  Writing full time.
+<time begin="19.419" end="24.190"/><clear/>Have you sold anything so far?"
+<time begin="25.191" end="26.626"/><clear/>And the other friend said,
+<time begin="26.626" end="29.829"/><clear/>"Yes. I've sold my car,
+<time begin="29.829" end="33.566"/><clear/>and I've sold my house." 
+</font></center></window>

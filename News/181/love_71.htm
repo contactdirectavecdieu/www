@@ -1,0 +1,152 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Nourriture végétarienne d’amour servie à InnVision</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<tr><td>
+
+
+<style> hr {display:none;} </style>
+<a ep_link name='N71' ep_end></a>
+<hr color="#078507" align="left" size="4"> </td></tr></table>
+<table width=600 border=1 bordercolor="#CCCCCC" background="images/love-bg.jpg">
+  <tr><td> <div class=IL1> 
+        <div align="center"><font color="#CC33CC">L'amour en action</font></div>
+      </div> <table width="185" height="38" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="38"><img src="images/love-a.gif" width="38" height="51"></td>
+          <td width="102" background="images/love-b.gif"><div align="center"><strong><font color="#FFFFFF">Etats-Unis 
+              </font></strong></div></td>
+          <td width="45"><img src="images/love-c.gif" width="45" height="52"></td>
+        </tr>
+      </table> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/tv-bg.jpg">
+        <tr> 
+          <td width="37%"><img src="images/love1-home.gif" width="250" height="125"></td>
+          <td width="63%"><p class=ep> 
+            <div class=IL2><em><strong><font color="#FFFFFF"> Nourriture végétarienne d'amour servie
+
+à InnVision</font></strong></em></div IL2>
+</td>
+        </tr>
+      </table>
+      <table width="100%" border="0" bgcolor="#6633CC">
+        <tr> 
+          <td class="NL2"><div align="center"><strong><font color="#FFFFFF">Par le groupe d'informations de San José (à l'origine en anglais </font></strong></div></td>
+        </tr>
+      </table>
+      <p class="ep">Dans la Silicon Valley, InnVision est le plus grand fournisseur d'hébergements et de services pour les familles et individus sans-abri et en danger. Ils disposent de vingt sites implantés sur toute la Baie de San Francisco.</p>
+      <table width="100" border="0" align="right" cellpadding="4">
+        <tr>
+          <td height="402"><img src="images/love1-1-181.jpg" width="264" height="202"><br>
+            <br>
+            <img src="images/love1-2-181.jpg" width="264" height="169"></td>
+        </tr>
+      </table>
+      <p class=ep>Des amis initiés du Centre de San José participent au programme alimentaire mis en œuvre par InnVision. La première semaine de chaque mois, nous servons de la nourriture végétarienne d'amour à l'Auberge de la rue Julien (environ 70 clients) ou au quartier général (150 à 250 clients). <p class=ep>Les clients ont une façon particulière de faire part de leur appréciation : ils applaudissent au milieu de repas. Ce geste simple et réchauffant nous touche beaucoup.<p class=ep>Chaque mercredi soir au quartier général, une consultation médicale gratuite est tenue par des docteurs d'hôpitaux de la baie. <p class=ep> Une salle informatique de 15-20 ordinateurs est également accessible à tous les clients qui sont en recherche d'emploi. Depuis 2004, NVIDIA, une société de haute technologie de la Silicon Valley, fournit des informations d'actualité aux clients sur : <a target=_blank href='http://www.prnewswire.com/'>http://www.prnewswire.com/</a> 
+        <a target=_blank href='http://www.innvision.org/index.html'>http://www.innvision.org/index.html</a> 
+        <font color="#4B5221"><img src="images/end.gif" width="20" height="16" align="texttop"></font> 
+      <p class=ep>
+<!--- %----------
+ --->
+<!--- %filename: love2-181e.htm, ()
+ --->
+
+
+<p class=ep>
+
+<center>
+        <table width=260 border=1 cellspacing="1" bordercolor="#ECFAE7" bgcolor="#6699CC">
+          <tr><td class=navigate><a href='jk_70.htm' style='color:white'>&lt;&lt;</a></td>
+	<td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+	        <td class=navigate><a href='love_73.htm' style='color:white'>&gt;&gt;</a></td>
+</tr>
+
+<tr><td class=navigate colspan=3 align=center>Envoyer cette page à un ami<img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25">
+	</td>
+</tr>
+</table>
+</center>
+
+
+<!-- end of rim --->
+</td></tr></table>

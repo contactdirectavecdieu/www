@@ -1,0 +1,10 @@
+<window type="generic" bgcolor="black" duration="22" version="1.0" width="350" height="55">
+<center><font color="#99ffff" size="3" charset="us-ascii">
+<time begin="0.000" end="3.000"/><clear/>Le téléphone sonna et<br/>le professeur répondit,
+<time begin="3.000" end="5.733"/><clear/>disant : "Bonjour,<br/>puis-je vous aider ?" 
+<time begin="5.733" end="10.681"/><clear/>De l'autre côté du fil une<br/>voix dit : "Est-ce M. Hsieh ? 
+<time begin="10.681" end="15.317"/><clear/>Je voudrais vous dire que Tony ne<br/>peut pas aller à l'école<br/>aujourd'hui."
+<time begin="15.317" end="18.041"/><clear/>Le professeur demanda : "S'il<br/>vous plaît, qui êtes-vous ?" 
+<time begin="18.041" end="21.226"/><clear/>"Bien sûr, c'est mon père<br/>qui parle," fut la réponse.
+<time begin="21.226" end="21.226"/><clear/>
+</font></center></window>

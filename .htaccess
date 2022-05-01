@@ -1,0 +1,27 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^contactdirectavecdieu.org$
+RewriteRule ^(.*) http://www.contactdirectavecdieu.org/$1  [QSA,L,R=301]
+
+Redirect permanent /news http://www.contactdirectavecdieu.org/News
+Redirect permanent /argent.html http://www.contactdirectavecdieu.org/conferences/argent.html
+Redirect permanent /audela.html http://www.contactdirectavecdieu.org/conferences/audela.html
+Redirect permanent /bouddha.html http://www.contactdirectavecdieu.org/conferences/bouddha.html
+Redirect permanent /combat.html http://www.contactdirectavecdieu.org/conferences/combat.html
+Redirect permanent /communic.html http://www.contactdirectavecdieu.org/conferences/communic.html
+Redirect permanent /confe.html http://www.contactdirectavecdieu.org/conferences/confe.html
+Redirect permanent /dieu.html http://www.contactdirectavecdieu.org/conferences/dieu.html
+Redirect permanent /differen.html http://www.contactdirectavecdieu.org/conferences/differen.html
+Redirect permanent /famille.html http://www.contactdirectavecdieu.org/conferences/famille.html
+Redirect permanent /illumine.html http://www.contactdirectavecdieu.org/conferences/illumine.html
+Redirect permanent /pardonne.html http://www.contactdirectavecdieu.org/conferences/pardonne.html
+Redirect permanent /pratique.html http://www.contactdirectavecdieu.org/conferences/pratique.html
+Redirect permanent /pyramide.html http://www.contactdirectavecdieu.org/conferences/pyramide.html
+Redirect permanent /quesrep.html http://www.contactdirectavecdieu.org/conferences/quesrep.html
+Redirect permanent /terres.html http://www.contactdirectavecdieu.org/conferences/terres.html
+Redirect permanent /vege.html http://www.contactdirectavecdieu.org/fr_sbook/bnouvelle.htm
+Redirect permanent /vegeta.html http://www.contactdirectavecdieu.org/fr_sbook/vegetarisme.htm
+Redirect permanent /whyVeg.html http://www.contactdirectavecdieu.org/fr_sbook/vegetarisme.htm
+Redirect permanent /quanyin.html http://www.contactdirectavecdieu.org/fr_sbook/sommaire.htm
+Redirect permanent /www.htm http://www.contactdirectavecdieu.org/latoile/liens.htm
+
+Options -Indexes

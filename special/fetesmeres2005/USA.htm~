@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>USA</title>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="600" border="2" cellpadding="0" cellspacing="1" bordercolor="#FFCCFF">
+  <tr> 
+    <td width="600" valign="top"> 
+      <div align="center">
+        <p align="left"><br>
+          <img src="images/USA-title.jpg" width="500" height="57"> </p>
+        </div>
+      <table width="438" height="186" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#DAF1F1">
+        <tr>
+          <td width="315" height="182"><div align="center"><img src="images/Hawaii.jpg" width="300" height="165"></div></td>
+          <td width="115"><blockquote>
+              <p align="left"><font color="#FF3333" size="3">Hawaii<br>
+                夏威夷 </font></p>
+            </blockquote></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="550" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#996699">
+        <tr> 
+          <td width="277" height="93"><img src="images/Mom-card_USA1.jpg" width="250" height="228"></td>
+          <td width="265"><img src="images/Mom-card_USA2.jpg" width="250" height="364"></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="536" height="540" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#B8CE97">
+        <tr> 
+          <td width="373" height="279"><div align="center"><img src="images/NJ-1.jpg" width="360" height="265"></div></td>
+          <td width="155" rowspan="2"><blockquote>
+              <p><font color="#669966" size="3">New Jersey<br>
+                紐澤西</font></p>
+            </blockquote></td>
+        </tr>
+        <tr> 
+          <td><div align="center"><img src="images/NJ-2.jpg" width="360" height="237"></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="550" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#669933">
+        <tr>
+          <td><img src="images/Ohio.jpg" width="500" height="358"></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="512" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#9F2D20">
+        <tr>
+          <td width="516" height="671"> 
+            <div align="center"><img src="images/oregon1.jpg" width="500" height="639"></div></td>
+        </tr>
+        <tr>
+          <td height="374">
+<div align="center"><img src="images/oregon2.jpg" width="500" height="333"></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="550" border="2" align="center" cellpadding="0" cellspacing="1" bordercolor="#FFE16A">
+        <tr>
+          <td height="383"> 
+            <div align="center"><img src="images/San%20Francisco.jpg" width="499" height="359"></div></td>
+        </tr>
+        <tr>
+          <td height="58">
+<div align="center"><font color="#FFCC00" size="3">San Francisco<br>
+              舊金山 </font></div></td>
+        </tr>
+      </table> 
+      <p>&nbsp;</p>
+      <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

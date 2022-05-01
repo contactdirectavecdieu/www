@@ -1,0 +1,10 @@
+<window type="generic" bgcolor="black" duration="22" version="1.0" width="350" height="55">
+<center><font color="#99ffff" size="3" charset="iso-8859-1">
+<time begin="0.000" end="3.000"/><clear/>El teléfono son?<br/>y el profesor contest?
+<time begin="3.000" end="5.733"/><clear/>diciendo, “Hola, ¿Puedo ayudarle??
+<time begin="5.733" end="10.681"/><clear/>Una voz dijo desde el otro lado,<br/>“¿Es el Sr. Hsieh?
+<time begin="10.681" end="15.317"/><clear/>Me gustaría informarle que<br/>Tony no puede ir a la escuela hoy?
+<time begin="15.317" end="18.041"/><clear/>El profesor pregunt?<br/>“¿Quién es usted, por favor??
+<time begin="18.041" end="21.226"/><clear/>“Es mi padre el que habla,<br/>por supuesto? fue la respuesta.
+<time begin="21.226" end="21.226"/><clear/>
+</font></center></window>
