@@ -1,0 +1,195 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Ainsi me faites-vous...</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<tr><td>
+
+
+<style> hr {display:none;} </style>
+    <a ep_link name='N34' ep_end></a> </td>
+</tr></table>
+<table width=600 border=1 cellpadding="0" cellspacing="1" bordercolor="#FFFFCC" background="images/po34-bg.jpg" >
+  <tr> 
+    <td> 
+      <div class=IL1> <font color="#990099">Poème </font></div>
+      <div class=IL2> <font color="#FF0033" size="6">Ainsi</font><font color="#FF6666" size="6"> me <font color="#FF9999">faites-</font> <font color="#FFCC99">vous...</font></font></div IL2>
+      <p>&nbsp;</p>
+      <p class="NL2"><font color="#FABA74">écrit et illustré par Yimy, Surrey, Royaume Uni, (à l'origine en anglais)</font> </p>
+      <p>&nbsp; </p>
+      <p class="nj" align="left"><b><span lang="EN-US"><font color="#990099"> 
+        </font></span></b></p>
+      <table width="237" height="418" border="0" align="right" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="227"><img src="images/po34-1.jpg" width="320" height="318"></td>
+        </tr>
+        <tr>
+          <td height="93"> 
+            <div align="center" class="ep"><font color="#FABA74">Je ne peux tout simplement pas m'arrêter de chanter et danser,<br>Dans mon coeur, en raison de votre amour, <br>Ainsi m'avez-vous fait.</font></div></td>
+        </tr>
+      </table>
+      <p class="nj" align="left"><b><span lang="EN-US"><font color="#990099"><font color="#FF0033" size="5">M</font><font color="#FF0033"><i>e réveillant dans l'obscurité,</i></font></font></span></b></p>
+      <p class="nj" align="left"><font color="#FF0033"><b><i><span lang="EN-US"> Quand brillent encore  les étoiles,</span></i></b></font></p>
+      <p class="nj" align="left"><font color="#FF0033"><b><i><span lang="EN-US"> Quand dorment encore les moutons,</span></i></b></font></p>
+      <p class="nj" align="left"><font color="#FF0033"><b><i><span lang="EN-US"> Pour votre lumière capter,</span></i></b></font></p>
+      <p class="nj" align="left"><font color="#FF0033"><b><i><span lang="EN-US"> Pour vous écouter,</span></i></b></font></p>
+      <p class="nj" align="left"><font color="#FF0033"><b><i><span lang="EN-US"> Coeur et âme.</span></i></b></font></p>
+      <p class="nj" align="center"><b><i><font color="#990099"><span lang="EN-US"> 
+        &nbsp;</span></font></i></b></p>
+      <blockquote> 
+        <blockquote> 
+          <p align="left" class="nj"><b><font color="#990099"><span lang="EN-US"> 
+            <font color="#FF6666" size="5">V</font></span><font color="#FF6666"><i><span lang="EN-US">ous me faites grandir,</span></i></font></font></b></p>
+          <p align="left" class="nj"><font color="#FF6666"><b><i><span lang="EN-US"> Vous me faites fort,</span></i></b></font></p>
+          <p align="left" class="nj"><font color="#FF6666"><b><i><span lang="EN-US"> Avec votre étourdissante lumière.</span></i></b></font></p>
+          <p align="left" class="nj"><font color="#FF6666"><b><i><span lang="EN-US"> Vous me faites chanter,</span></i></b></font></p>
+          <p align="left" class="nj"><font color="#FF6666"><b><i><span lang="EN-US"> Vous me faites danser,</span></i></b></font></p>
+          <p align="left" class="nj"><font color="#FF6666"><b><i><span lang="EN-US"> Avec votre mélodieux son.</span></i></b></font></p>
+        </blockquote>
+      </blockquote>
+      <p class="nj" align="center"><b><i><font color="#990099"><span lang="EN-US"> 
+        &nbsp;</span></font></i></b></p>
+      <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <blockquote> 
+              <p align="left" class="nj"><b><font color="#990099"><span lang="EN-US"> 
+                <font color="#FF9999" size="5">V</font></span><font color="#FF9999"><i><span lang="EN-US">ous me faites aimer,</span></i></font></font></b></p>
+              <p align="left" class="nj"><font color="#FF9999"><b><i><span lang="EN-US"> Vous me faites ressentir,</span></i></b></font></p>
+              <p align="left" class="nj"><font color="#FF9999"><b><i><span lang="EN-US"> Avec votre océan d'amour.</span></i></b></font></p>
+              <p align="left" class="nj"><font color="#FF9999"><b><i><span lang="EN-US"> Vous me faites rire, </span></i></b></font></p>
+              <p align="left" class="nj"><font color="#FF9999"><b><i><span lang="EN-US"> Vous me faites jeune,</span></i></b></font></p>
+              <p align="left" class="nj"><font color="#FF9999"><b><i><span lang="EN-US"> Avec votre miraculeuse voix.</span></i></b></font></p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+      <p class="nj" align="center"><b><i><font color="#990099"><span lang="EN-US"> 
+        &nbsp;</span></font></i></b></p>
+      <blockquote> 
+        <blockquote> 
+          <p align="right" class="nj"><b><font color="#990099"><span lang="EN-US"> 
+            <font color="#FFCC99" size="5">Je </font></span><font color="#FFCC99"><i><span lang="EN-US">souhaite briller avec la lumière,</span></i></font></font></b></p>
+          <p align="right" class="nj"><font color="#FFCC99"><b><i><span lang="EN-US"> Aidant à balayer les nuages pour vous.</span></i></b></font></p>
+          <p align="right" class="nj"><font color="#FFCC99"><b><i><span lang="EN-US"> Je souhaite voler avec vous,</span></i></b></font></p>
+          <p align="right" class="nj"><font color="#FFCC99"><b><i><span lang="EN-US"> Pour que seule vous ne soyez pas.</span></i></b></font></p>
+        </blockquote>
+      </blockquote>
+      <p class="nj" align="center"><b><i><font color="#990099"><span lang="EN-US"> 
+        &nbsp;</span></font></i></b></p>
+      <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <blockquote>
+              <p align="right" class="nj"><b><font color="#990099"><span lang="EN-US"> 
+                <font color="#FF9933" size="5">Si</font></span><font color="#FF9933"><i><span lang="EN-US">jamais je pense à vous,</span></i></font></font></b></p>
+              <p align="right" class="nj"><font color="#FF9933"><b><i><span lang="EN-US"> Je suis au Ciel.</span></i></b></font></p>
+              <p align="right" class="nj"><font color="#FF9933"><b><i><span lang="EN-US"> Aimer est ma nature,</span></i></b></font></p>
+              <p align="right" class="nj"><font color="#FF9933"><b><i><span lang="EN-US"> Vous aimer est ma vie,</span></i></b></font></p>
+              <p align="right" class="nj"><font color="#FF9933"><b><i><span lang="EN-US"> Vous m'avez fait ainsi.</span></i></b></font></p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+      <span class="cap">
+      <div align="center">
+<table width="100%" height="309" border="0" cellpadding="0" cellspacing="0" background="images/po34-bg2.jpg">
+          <tr> 
+            <td height="291" valign="top"> <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <table width=260 border=1 align="center" cellspacing="1" bordercolor="#ECFAE7" bgcolor="#FCCBCB">
+                <tr> 
+                  <td class=navigate><a href='sw_32.htm' style='color:white'>&lt;&lt;</a></td>
+                  <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+                  <td class=navigate><a href='pi_36.htm' style='color:white'>&gt;&gt;</a></td>
+                </tr>
+                <tr> 
+                  <td class=navigate colspan=3 align=center> Envoyer cette page à un ami <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+      </div>
+      </span> 
+      <!-- end of rim --->
+    </td>
+  </tr></table>

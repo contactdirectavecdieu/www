@@ -1,0 +1,185 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Jour spécial à Hawaii</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<table width=600 border=0 cellpadding="0" cellspacing="0" background="images/sp-bg.gif">
+  <tr> 
+    <td colspan="3"> <img src="images/sp-a.gif" width="600" height="42"> <div></div>
+      <!-- end of rim --->
+    </td>
+  </tr>
+  <tr> 
+    <td width="22"><div class=IL1> 
+        <div align="center"></div>
+      </div></td>
+    <td width="555" valign="top"><div class=IL1> 
+        <div align="center"><font color="#0099FF">Panorama d'événements </font></div>
+      </div>
+      <div class=IL4>Etats-Unis<br>
+        <br>
+      </div>
+      <table width="100%" border="0" background="images/sp9-1-182.jpg">
+        <tr> 
+          <td height="328" valign="top" class="IL2"><font color="#996666">Jour spécial à Hawaii </font></td>
+        </tr>
+      </table>
+      <div class=NL2> Par le groupe d'informations de Hawaii (à l'origine en anglais) </div>
+      <p class=ep> <img src="images/sp9-3-182.jpg" width="204" height="253" align="left">[Hawaii] 
+        Le 11 mars de l'année d'Or 4 (2007), dans le cadre du Festival de Honolulu 
+        et de la Parade culturelle – organisés chaque année pour célébrer les 
+        traditions et pratiques culturelles du Japon et d'autres pays asiatiques 
+        du Pacifique – les frères et sœurs de Hawaii ont distribué les prospectus 
+        Mode de vie alternatif et Supreme Master Television. <font color="#CCFFFF"><img src="images/end.gif" width="20" height="18" align="texttop"></font> 
+    
+      <p class=ep>&nbsp;</p>
+      <div align="center"><img src="images/love-l.gif" width="354" height="18"> 
+      </div>
+      <p class=ep> 
+      <div class=IL2> 
+        <p><font color="#0099CC">Expo FamilyFarmed.Org à Chicago:
+
+la preuve de l'élévation
+
+des consciences </font></p>
+        <p><img src="images/sp2-1-182.jpg" width="274" height="211"><img src="images/sp2-2-182.jpg" width="274" height="211"></p>
+      </div IL2>
+      <p class=ep> 
+      <div class=NL2> Par l'équipe d'informations de l'Illinois (à l'origine en anglais) </div>
+      <p class=ep> [Chicago] Le 24 mars de l'année d'Or 4 (2007), des initiés du Centre de l'Illinois ont participé à l'exposition annuelle Farmed.Org organisée au prestigieux centre culturel de Chicago. <p class=ep> A cette occasion, ils ont fait la promotion de Supreme Master Television et du message Mode de vie alternatif. 
+      <p class=ep> Ce salon a permis de présenter des expériences d'agriculture 
+        familiale, des choix alimentaires biologiques et naturels, des repas sains 
+        végétariens/végétaliens, des lieux contribuant à préserver les ressources 
+        de la Terre, et des techniques limitant le réchauffement climatique. <font color="#CCFFFF"><img src="images/end.gif" width="20" height="18" align="texttop"></font> 
+    
+        <!--- %----------
+ --->
+        <!--- %filename: sp0-182e.htm, (content="text/html; charset=big5")
+ --->
+      <p class=ep>
+        <!--- %----------
+ --->
+        <!--- %filename: jk1-182e.htm, (content="text/html; charset=big5")
+ --->
+      <center>
+        <table width=260 border=1 cellspacing="1" bordercolor="#B3D9BF" bgcolor="#80AED5">
+          <tr> 
+            <td class=navigate><a href='sp_20.htm' style='color:white'><<</a></td>
+            <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+            <td class=navigate><a href='jk1.htm' style='color:white'>>></a></td>
+          </tr>
+          <tr> 
+            <td class=navigate colspan=3 align=center> <span style='color:white;'>Envoyer cette page à un ami</span> <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+          </tr>
+        </table>
+      </center>
+
+
+      <p class=ep> 
+        <!--- %----------
+ --->
+        <!--- %filename: sp10-182e.htm, (content="text/html; charset=big5")
+ --->
+      <center>
+      </center>
+      <br> <table width="82%" border="0" align="center" cellpadding="5" bgcolor="#82A9E3">
+        <tr> 
+          <td><div align="justify"><strong><em><font color="#EFFCF8">Avec une compassion profonde envers les animaux et préoccupée par la multiplication de maladies épidémiques parmi les humains et les animaux, le Maître a offert au monde une solution fondamentale à ce problème en réalisant personnellement un prospectus joli et convainquant intitulé « Mode de vie alternatif » pour rappeler aux gens de choisir une alimentation végétarienne et d'arrêter de tuer, afin d'enrayer les crises médicales globales et
+sauver nos semblables. Le Maître a aussi donné l'instruction à tous les initiés de partager le message
+avec leurs frères et soeurs de tous les coins du monde. En réaction, les pratiquants ont multiplié les initiatives pour partager Ses paroles d'amour. </font></em></strong></div></td>
+        </tr>
+      </table>
+      <div class=IL2> 
+        <div align="center"><font color="#999966">Agenda événementiel </font></div>
+      </div IL2>
+      <blockquote> 
+        <p class=memo>Pour maintenir l'élévation spirituelle de la planète, les centres locaux de l'Association internationale de Maître Suprême Ching Hai organisent de plus en plus de sessions de conférence vidéo et d'autres événements de partage de la Vérité. <br>
+          <br>Vous, votre famille et vos amis êtes invités à participer à ces activités.  Pour connaître nos programmes, consultez le site suivant : <a target=_blank href='http://www.Godsdirectcontact.org.tw/eng/latest_news/events-datebook.htm'>1  http://www.Godsdirectcontact.org.tw/eng/latest_news/events-datebook.htm</a> 
+      </blockquote></td>
+    <td width="23">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="images/sp-b.gif" width="600" height="42"></td>
+  </tr>
+</table>
+<tr>
+  <td>

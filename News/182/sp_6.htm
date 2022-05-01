@@ -1,0 +1,238 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Leçons de cuisine végétarienne pour les enfants</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+<tr>
+  <td> <table width=600 border=0 cellpadding="0" cellspacing="0" background="images/sp-bg.gif">
+      <tr> 
+        <td colspan="3"> <img src="images/sp-a.gif" width="600" height="42"> <div></div>
+        
+        </td>
+      </tr>
+      <tr> 
+        <td width="22"><div class=IL1> 
+            <div align="center"></div>
+          </div></td>
+        <td width="555" valign="top"><div class=IL1> 
+            <div align="center"><font color="#0099FF">Panorama d'événements </font></div>
+          </div>
+          <div class=IL4><font color="#FF9933">Formose </font></div>
+          <div align="center"><br>
+            <img src="images/sp6-1-182.jpg" width="485" height="326"> </div>
+          <div class=IL2> <font color="#047D2F">Leçons de cuisine végétarienne <br>pour les enfants</font></div IL2>
+          <p class=ep> 
+          <div class=NL2> Par le groupe d'informations de Taipei (à l'origine en chinois) </div>
+          <p class=ep> [Taipei] Pour aider la jeune génération à mieux comprendre l'alimentation végétarienne, les initiés de Taipei ont profité d'un moment de garderie* pour organiser, le 21 mars de l'année d'Or 4 (2007) au Centre de Taipei, un cours de cuisine pour enfants. Au programme figuraient biscuits et boules de riz.</p>
+          <div align="center"><img src="images/sp6-2-3-4.jpg" width="500" height="298"> 
+          </div>
+          <p class=ep> Pour remplacer les œufs et le lait, les enfants ont appris à utiliser le lait de soja et l'huile de pépin de raisin, qui sont plus sains et donnent un meilleur goût. Les sourires satisfaits qui illuminaient le visage des enfants lorsque ceux-ci ont savouré leurs biscuits et boules de riz témoignaient du plaisir ressenti lors de cette activité.<font color="#CCFFFF"><img src="images/end.gif" width="21" height="19" align="texttop"></font></p>
+          <div align="center"><img src="images/sp6-5-182.jpg" width="344" height="262"> 
+          </div>
+          <blockquote>
+            <div align="justify"><span class="cap"><em>* Le Centre de Taipei propose une garde d'enfants pour les enfants de moins de six ans pendant des séances de méditation de groupe. Ainsi les parents peuvent méditer avec l'esprit plus tranquille. Des activités spéciales sont organisées régulièrement pour aider les enfants à mieux connaître l'alimentation végétarienne et la pratique spirituelle par l'étude et l'expérience directe. Ces activités favorisent les bonnes relations entre parents et enfants, et procurent aux jeunes saints de merveilleux souvenirs. <br>
+              </em></span></div>
+          </blockquote>
+          <div align="justify">
+            <p>&nbsp; </p>
+          </div>
+          <div align="center"><img src="images/love-l.gif" width="354" height="18"> 
+          </div>
+          <p class=ep>&nbsp; 
+          <p class=IL2> <font color="#047D2F">Projection de « Une Vérité qui dérange 
+            » à l'Université Nationale Normale de Taiwan </font> 
+          <p class=IL2><img src="images/sp6-6-8.jpg" width="450" height="315"> 
+          <div class=NL2> Par le groupe d'informations des Universités de Taipei (à l'origine en chinois) </div>
+          <p class=ep>[Taipei] Une projection de film intitulée « 2007 : le Globe au cœur des préoccupations » a été organisée le 22 mars de l'année d'Or 4 (2007) par la Société Son et Lumière de l'Université de Taiwan et la Société de Développement Personnel de l'Université Nationale Normale de Taiwan au campus NTNU.</p>
+          <table width="100" border="0" align="left">
+            <tr> 
+              <td><img src="images/sp6-7-182.jpg" width="246" height="190"></td>
+            </tr>
+            <tr> 
+              <td><img src="images/sp6-9-182.jpg" width="245" height="190"></td>
+            </tr>
+          </table>
+          <p class=ep>Gratuit et ouvert à tous, l'événement a débuté par la projection d'une émission de Supreme Master Television et du DVD « Les vrais héros ». Puis a été projeté le documentaire « Une Vérité qui dérange » dans lequel l'ancien Vice-président américain Al Gore explique en détail la crise du réchauffement climatique afin d'écarter tout malentendu sur cette problématique.</p>
+          <p class=ep> Il appelle en outre chacun à faire son possible pour éviter une nouvelle détérioration. Après le film, quelques invités sont restés pour apprendre la Méthode Pratique de méditation. <font color="#CCFFFF"><img src="images/end.gif" width="21" height="19" align="texttop"></font></p>
+          <div align="center"> 
+            <p>&nbsp;</p>
+            <p><img src="images/love-l.gif" width="354" height="18"> </p>
+          </div>
+          <p class=ep>&nbsp; 
+          <p class=IL2> <font color="#047D2F">Activités pour les défavorisés</font> 
+          </p>
+          <div align="center"><img src="images/sp6-11-182.jpg" width="545" height="338"> 
+          </div>
+          <div class=NL2> Par le groupe d'informations de Taipei (à l'origine en chinois) </div>
+          <table width="98%" border="0" align="center">
+            <tr> 
+              <td><div align="center"><img src="images/sp6-13-182.jpg" width="241" height="152"></div></td>
+              <td><div align="center"><img src="images/sp6-12-182.jpg" width="274" height="150"></div></td>
+            </tr>
+          </table>
+          <table width="100" border="0" align="right" cellpadding="3">
+            <tr> 
+              <td><img src="images/sp6-10-182.jpg" width="243" height="186"></td>
+            </tr>
+            <tr> 
+              <td class="cap">Le Vice-président Lu Hsiu-lien (troisième à droite, rangée de devant) a été invité à lire une proclamation d'amour aux côtés d'autres participants. </td>
+            </tr>
+          </table>
+          <p class=ep>[Taipei] Le 25 mars de l'année d'Or 4 (2007), le Centre 
+            de Taipei a participé à une activité éducative et culturelle destinée 
+            à un public handicapé et à des indigènes, et organisée à l'initiative 
+            d'une centaine de groupes communautaires désirant « s'occuper des 
+            défavorisés et promouvoir une société harmonieuse. »<font color="#CCFFFF"><img src="images/end.gif" width="21" height="19" align="texttop"></font></p>
+          <p class=ep>&nbsp;</p>
+          <table width="59%" border="0" align="center">
+            <tr> 
+              <td width="56%"><img src="images/sp6-14-182.jpg" width="196" height="165" align="left"></td>
+              <td width="44%"><img src="images/sp6-15-182.jpg" width="216" height="166"></td>
+            </tr>
+          </table>
+          <p class=ep>&nbsp; </p>
+          <p class=IL2><img src="images/love-l.gif" width="354" height="18"> 
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/sp7-4.jpg">
+            <tr> 
+              <td width="38%" height="310" class="IL2"><font color="#047D2F">Partager le végétarisme et des messages spirituels lors du Festival Hakka</font></td>
+              <td width="62%" valign="bottom" class="NL2">Par le groupe d'informations de Nantou (à l'origine en chinois) </td>
+            </tr>
+          </table>
+          <img src="images/sp7-1-2-3.jpg" width="264" height="496" align="left"> 
+          <p class=ep> [Nantou] Le 31 mars de l'année d'Or 4 (2007), des amis initiés du Centre local ont préparé une grande variété de biscuits et des prospectus Mode de vie alternatif pour les distribuer aux touristes visitant le Festival de fleurs Hakka Tung à la station estival des arts Niu Er.</p>
+          <p class=ep>Nous avons aussi partagé des informations Supreme Master Television, les bienfaits du végétarisme sur l'environnement, les dix plus grandes avancées vers la paix en 2006 et le coût élevé pour l'humanité de la consommation de viande, de tabac et d'alcool.</p>
+          <p class=PH> Un séminaire bon pour la santé et vivant pour les directeurs d'établissements scolaires </p>
+          <img src="images/sp7-5-6.jpg" width="287" height="319" align="right"> 
+          <p class=ep> Le 29 mars, environ 150 directeurs de collèges et d'écoles élémentaires de Formose ont participé à un séminaire sur la santé. Le séminaire a été l'occasion de rappeler aux participants de prendre soin de leur santé et de promouvoir une alimentation appropriée dans leur établissement, y compris lors des activités éducatives. </p>
+          <p class=ep>Lors du séminaire, un document sur les lundis sans viande – initiés par le Dr. Lawrence – a été projeté et Mme Li Qiu-liang, une rescapée atteinte de cancer, est intervenue pour parler des risques posés par l'alimentation moderne. Mme Li a raconté le combat réussi qu'elle mène depuis 17 ans contre le cancer grâce à l'alimentation végétarienne, et a souligné l'importance de l'harmonie entre le corps, le mental et l'âme. Après le séminaire, les participants ont pu partager un déjeuner végétarien biologique conçu par Mme Li et préparé par des initiés de Nantou. Une jeune scoute ayant participé à l'activité s'est exclamée : « Cette nourriture est vraiment délicieuse, bien meilleure que l'alimentation grasse de Mac Donald ! »</p>
+          <p class=ep> Ce fut la première fois, à l'occasion d'un séminaire des directeurs d'établissements scolaires de Nantou, qu'un repas végétarien pur ne contenant ni œuf ni produit laitier fut servi. Souhaitons que ce genre d'activité accélère l'arrivée de l'ère végétarienne dans les établissements scolaires.<font color="#CCFFFF"><img src="images/end.gif" width="21" height="19" align="texttop"></font></p>
+          <p class=ep> 
+          <div class=IL2> </div IL2>
+          <div align="center"><img src="images/love-l.gif" width="354" height="18"> 
+          </div>
+          <p align="center" class=ep>&nbsp; 
+          <div class=IL2><font color="#047D2F">Publicités mobiles
+
+pour des nouvelles positives </font></div IL2>
+          <p class=ep> 
+          <div class=NL2> Par le groupe d'informations de Kaohsiung (à l'origine en chinois) </div>
+          <img src="images/sp8-1-2-3.jpg" width="262" height="496" align="right"> 
+          <p class=ep> [Kaohsiung] Après quelques négociations animées menées depuis le début de l'année d'Or 4 (2007), des amis initiés ont réussi à faire apposer de larges publicités Supreme Master Television sur vingt bus parcourant sept itinéraires majeurs de la ville de Kaohsiung. Cette opération devait durer deux mois, mais a été prolongée gratuitement de six semaines sur onze bus car il n'y avait aucune nouvelle publicité.</p>
+          <p class=ep>En voyant cette publicité, certains propriétaires d'autobus ont demandé que leurs bus soient décorés à l'identique, et ce gratuitement !<font color="#CCFFFF"><img src="images/end.gif" width="20" height="18" align="texttop"></font></p>
+          <p class=ep> 
+            <!--- %----------
+ --->
+            <!--- %filename: sp5-182e.htm, (content="text/html; charset=big5")
+ --->
+          <center>
+            <p>&nbsp;</p>
+            <table width=260 border=1 cellspacing="1" bordercolor="#B3D9BF" bgcolor="#66CC66">
+              <tr> 
+                <td class=navigate><a href='sr_4.htm' style='color:white'><<</a></td>
+                <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+                <td class=navigate><a href='sp_12.htm' style='color:white'>>></a></td>
+              </tr>
+              <tr> 
+                <td class=navigate colspan=3 align=center> <span style='color:white;'>Envoyer cette page à un ami</span> <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+              </tr>
+            </table>
+            <br>
+          </center>
+          <table width="82%" border="0" align="center" cellpadding="5" bgcolor="#82A9E3">
+            <tr> 
+              <td><div align="justify"><strong><em><font color="#EFFCF8">Avec une compassion profonde envers les animaux et préoccupée par la multiplication de maladies épidémiques parmi les humains et les animaux, le Maître a offert au monde une solution fondamentale à ce problème en réalisant personnellement un prospectus joli et convainquant intitulé « Mode de vie alternatif » pour rappeler aux gens de choisir une alimentation végétarienne et d'arrêter de tuer, afin d'enrayer les crises médicales globales et
+sauver nos semblables. Le Maître a aussi donné l'instruction à tous les initiés de partager le message
+avec leurs frères et soeurs de tous les coins du monde. En réaction, les pratiquants ont multiplié les initiatives pour partager Ses paroles d'amour. </font></em></strong></div></td>
+            </tr>
+          </table>
+          <div class=IL2> 
+            <div align="center"><font color="#999966">Agenda événementiel </font></div>
+          </div IL2>
+          <blockquote> 
+            <p class=memo>Pour maintenir l'élévation spirituelle de la planète, les centres locaux de l'Association internationale de Maître Suprême Ching Hai organisent de plus en plus de sessions de conférence vidéo et d'autres événements de partage de la Vérité. <br>
+              <br>Vous, votre famille et vos amis êtes invités à participer à ces activités.  Pour connaître nos programmes, consultez le site suivant : <a target=_blank href='http://www.Godsdirectcontact.org.tw/eng/latest_news/events-datebook.htm'>41  http://www.Godsdirectcontact.org.tw/eng/latest_news/events-datebook.htm</a> 
+          </blockquote></td>
+        <td width="23">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td colspan="3"><img src="images/sp-b.gif" width="600" height="42"></td>
+      </tr>
+    </table>

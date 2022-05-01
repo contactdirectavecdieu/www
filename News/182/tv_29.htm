@@ -1,0 +1,143 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Une lettre de Jordanie</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+
+    
+<table width=600 border=1 cellpadding="0" cellspacing="1" bordercolor="#FFFF99" background="images/tv-bg.jpg">
+  <tr> 
+    <td valign="top"> 
+      <div class=IL1> 
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/tv-bg1.jpg">
+          <tr>
+            <td height="49"><div class=IL1> 
+                <p><font color="#0033FF"><br>Emissions de télévision du Maître Suprême Ching Hai </font></p>
+              </div>
+              <p class=ep> 
+              <div class=IL2> 
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><font color="#CEAE64">Une lettre de Jordanie </font></p>
+              </div IL2>
+              <p class=NL2> <font color="#FF9933">Information diffusée sur Supreme Master Television, Episode 199</font> </td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p><em><font color="#333399"><strong>Al salamu Alaykom, (que la paix soit avec vous) </strong></font></em> </p>
+      </div>
+      <p class=ep><font color="#333399"> Je m'appelle Aminah et j'ai fait des traductions en arabe pour vos émissions au cours des dix jours passés. Je veux juste dire, que c'est la première fois de ma vie que je rencontre des gens si positifs dans la vie. Dans la région du monde où j'habite, être positif dans la vie est considérée comme quelque peu naïf. Et au début, c'est ce que je pensais de vous. </font>
+      <p class=ep><font color="#333399"> Je ne suis pas végétarienne du tout, mais depuis peu, je sens que mes habitudes alimentaires me fatiguent. Je ne cesse de penser aux choses que vous avez dites au sujet des repas sains et du végétarisme. Je ne cesse de penser à ces belles régions du monde que l'on considère comme des paradis de Dieu sur Terre. Je sens qu'un rayon de lumière a touché mon âme, si profondément. Je me suis même réveillée au milieu de la nuit pour consulter votre site Internet ; en fait il était trois heures du matin ! Suis-je devenue folle ? </font>
+      <p class=ep><font color="#333399"> Je vais régulièrement consulter votre site pour savoir ce qu'il y a de nouveau. Continuez votre beau travail. Qui a dit qu'une belle parole ne peut pas changer le monde ! Elle m'a changée, et c'est un début. <img src="images/end.gif" width="20" height="18" align="texttop"></font> 
+      <p class=reference> <b><font color="#FF9933">PS</font></b><font color="#FF9933">: J'apprécie particulièrement les émissions « Un voyage à travers les royaumes esthétiques » et « Divertissement et Sagesse ». Je voudrais que vous présentiez plus de poésie et de littérature. J'aime particulièrement ces domaines, la littérature ayant toujours été pour moi une source d'inspiration, et elle résume aussi l'essence de l'expérience humaine dans la vie, apportant dans nos cœurs la sagesse des âges et des temps. </font> 
+      <blockquote> 
+        <blockquote> 
+          <blockquote>
+            <p class="ep"> <i><b><font color="#333399">Très cordialement, </font></b></i><font color="#333399"><br>
+              <b><i>Aminah Sammut (pseudonyme) </i></b></font> </p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+      <!--- %----------
+ --->
+      <!--- %filename: tv2-182e.htm, (content="text/html; charset=big5")
+ --->
+      <p class=ep> 
+      <center>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="133" background="images/tv-bg2.jpg"><table width=260 border=1 align="center" cellspacing="1" bordercolor="#FFFFFF" bgcolor="#FF9F9F">
+                <tr> 
+                  <td class=navigate><a href='jk_28.htm' style='color:white'><<</a></td>
+                  <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+                  <td class=navigate><a href='tv_31.htm' style='color:white'>>></a></td>
+                </tr>
+                <tr> 
+                  <td class=navigate colspan=3 align=center> <span style='color:white;'>Envoyer cette page à un ami</span> <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+        </center>
+      <!-- end of rim --->
+    </td>
+  </tr></table>

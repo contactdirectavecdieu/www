@@ -1,0 +1,128 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Eco-boules</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<tr><td>
+
+
+<style> hr {display:none;} </style>
+    <a ep_link name='N40' ep_end></a> </td>
+</tr></table>
+<table width=600 border=0 cellpadding="0" cellspacing="0" background="images/ga40-bg.jpg" >
+  <tr>
+    <td valign="top"> 
+      <div class=IL1> Technologies de l'Age d'Or</div>
+<p class=ep>
+      <div class=IL2> <font color="#316D26" size="6"><strong><em><font size="7">E</font>co-<font size="7">B</font>oules</em></strong></font> 
+      </div IL2>
+<p class=ep>
+<div class=NL2> Information diffusée sur Supreme Master Television, Episode 133</div>
+      <p class=ep>&nbsp; 
+      <table width="90" border="0" align="right" cellpadding="3" cellspacing="2">
+        <tr>
+          <td><img src="images/ga40-1.jpg" width="308" height="234"></td>
+        </tr>
+      </table>
+      <p class=ep><font color="#003300">Une nouvelle solution de lavage de vos vêtements pourrait protéger l'environnement et votre portefeuille. Il s'agit d'éco-boules qui sont utilisées à la place de la lessive en poudre. Trois boules mélangées à l'eau produisent de l'oxygène ionisé qui active les molécules d'eau naturellement et leur permet de pénétrer profondément dans des vêtements de fibres pour nettoyer en profondeur la saleté. Elles sont réutilisables plus de 1000 fois et coûtent 4 cents d'euros par lavage. Avec cette solution, l'environnement sera moins pollué car les boules ne contiennent aucun produit chimique. La consommation d'eau et d'électricité peut également être réduite avec des cycles de rinçage plus courts. Les boules n'effacent pas les couleurs brillantes, ni n'abîment les fibres ; ainsi vos vêtements dureront plus longtemps. De plus, les gens ayant la peau sensible ou de l'eczéma apprécieront cette solution puisque les éco-boules sont hypoallergéniques. <img src="images/end.gif" width="20" height="16" align="texttop"></font>
+        <!--- %----------
+ --->
+        <!--- %filename: gd1-181e.htm, ()
+ --->
+      <p class=ep>
+
+<center>
+        <table width=260 border=1 cellspacing="1" bordercolor="#99CC99" bgcolor="#316D26">
+          <tr><td class=navigate><a href='pi_38.htm' style='color:white'>&lt;&lt;</a></td>
+	<td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+	<td class=navigate><a href='gd_42.htm' style='color:white'>&gt;&gt;</a></td>
+</tr>
+
+<tr><td class=navigate colspan=3 align=center>Envoyer cette page à un ami<img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25">
+	</td>
+</tr>
+</table>
+</center>
+
+
+<!-- end of rim --->
+</td></tr></table>

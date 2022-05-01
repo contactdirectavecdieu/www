@@ -1,0 +1,16 @@
+<smil>
+<head>
+  <layout>
+    <root-layout width="400" height="140" background-color="black"/>
+    <region id="videoregion" top="0" left="0" width="0" height="0" fit="meet"/>
+    <region id="textregion" top="0" left="0" width="400" height="140" fit="meet"/>
+  </layout>
+</head>
+<body>
+  <par>
+    <video region="videoregion" clip-begin="0ms" src="jk2.rm"/>
+    <ref region="textregion" clip-begin="0ms" src="jk2t.rp"/>
+  </par>
+</body>
+</smil>
+

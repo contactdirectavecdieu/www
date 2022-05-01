@@ -1,0 +1,13 @@
+<window type="generic" bgcolor="black" duration="34" version="1.0" width="350" height="60">
+<center><font color="#99ffff" size="3" charset="us-ascii">
+<time begin="0.200" end="2.101"/><clear/>Deux amis bavardaient ensemble,
+<time begin="2.101" end="4.704"/><clear/>et l'un demanda à l'autre :<br/>"Qu'as-tu fait dernièrement ?"
+<time begin="4.704" end="6.172"/><clear/>Et l'autre ami dit :
+<time begin="6.172" end="12.245"/><clear/>"J'ai commencé à écrire à temps<br/>plein depuis l'année dernière."
+<time begin="14.247" end="15.748"/><clear/>Alors, le premier ami dit :
+<time begin="15.748" end="18.918"/><clear/>"Oh ! Vraiment ? Ecrire à temps plein.
+<time begin="19.419" end="24.190"/><clear/>As-tu vendu quelque chose<br/>jusqu'à maintenant ?"
+<time begin="25.191" end="26.626"/><clear/>Et l'autre ami dit :
+<time begin="26.626" end="29.829"/><clear/>"Oui, j'ai vendu ma voiture
+<time begin="29.829" end="33.566"/><clear/>et j'ai aussi vendu ma maison."
+</font></center></window>

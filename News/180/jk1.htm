@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Pas de coin-coin s’inquiéter !</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY  style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+
+
+<style> hr {display:none;} </style></td></tr></table>
+<table width=598 border=0 cellpadding="0" cellspacing="0" background="images/jk1-space.jpg">
+      
+  <tr> 
+    <td> <table width="100%" height="523" border="0" cellpadding="0" cellspacing="0" background="images/jk1.jpg">
+        <tr> 
+          <td height="523" valign="top"><div class=IL1>Le Maître raconte des histoires drôles </div>
+            <div class=IL2></div IL2>
+            <blockquote> 
+              <p class="NL2"><font color="#3366FF"><br>
+                <span style="font-size: 14px">Raconté par Maître Suprême Ching Hai, <br>le 2 janvier 2007, Duisburg, Allemagne <br>(à l'origine en anglais)</span></font></p>
+				<p class="NL2">&nbsp;</p>
+				<p class="NL2">&nbsp;</p>
+				<p class="NL2">&nbsp;</p>
+				<p class="NL2">&nbsp;</p>
+				<p class="NL2">&nbsp;</p>
+				<p class="NL2">&nbsp;</p>
+				<p class="NL2">&nbsp;</p>
+            </blockquote>
+			<p class="IL2">&nbsp;</p>
+            <p class="IL2"><span style="font-size: 38px">Pas de </span> <em> <font color="#FF3399" style="font-size: 48px"><br>
+              coin-coin</font></em><span style="font-size: 38px"> s'inquiéter 
+              ! </span> </p>
+            
+          </td>
+        </tr>
+      </table> <blockquote> 
+        <p class="ep"><font color="#996699"><a href="http://www.godsdirectcontact.org.tw/eng/news/180/rm/jk180-1.rm"><img src="images/realplyr_img.gif" width="73" height="22" border="0" align="texttop"></a></font><font color="#3333CC">Il y avait un troupeau de vaches dans un champ, et deux des vaches parlaient ensemble. La vache A dit à la vache B :
+
+<strong> « Ouah, ça m'inquiète vraiment toutes ces histoires de vache folle. Je ne sais pas si nous sommes en sécurité, si elle est déjà là et nous allons bien ou non. Connais-tu les symptômes, pour savoir si nous avons la maladie de la vache folle ? »</strong></font></p>
+        <p class="ep"><font color="#3333CC">Et l'autre vache répond : <strong><font color="#33CC33">« Je n'en ai aucune idée, vraiment, mais je pense que c'est encore loin, non ? » </font></strong></font></p>
+        <p class="ep"><font color="#3333CC"> Vient alors une troisième vache, la Vache C, et met son grain de sel en disant : <strong><font color="#FF3399">« Oh, cette affaire ne devrait pas nous inquiéter, nous autres, les canards, vous savez ! » <b><img src="images/end.gif" width="25" height="33" align="texttop"></b></font></strong></font></p>
+      </blockquote>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/jk1-bot.jpg">
+        <tr> 
+          <td height="193" valign="top"> <p>&nbsp;</p>
+            <table width=260 border=1 align="center" cellspacing="1" bordercolor="#FFFFCC" bgcolor="#6666CC">
+              <tr> 
+                <td class=navigate><a href='gv_37.htm' style='color:white'>&lt;&lt;</a></td>
+                <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+                <td class=navigate><a href='jk_41.htm' style='color:white'>&gt;&gt;</a></td>
+              </tr>
+              <tr> 
+                <td class=navigate colspan=3 align=center> Envoyer cette page à un ami <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+              </tr>
+            </table>
+            <div align="center"></div></td>
+        </tr>
+      </table>
+      <center>
+      </center>
+      <!-- end of rim --->
+    </td>
+      </tr></table>

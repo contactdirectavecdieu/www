@@ -1,0 +1,149 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>D’honnêtes revenus</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</HEAD>
+<style type="text/css">
+<!--
+.title {
+	filter: Glow(Color=green, Strength=4);
+}
+-->
+</style>
+<BODY style='margin:0;'>
+<div id="Layer1" style="position:absolute; left:172px; top:101px; width:425px; height:73px; z-index:1" class="title">
+  <div align="center"><font color="#FFFF99"><strong><span style="font-size: 48px">D'honnêtes revenus</span> </strong></font></div>
+</div>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+  <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<tr>
+<td> 
+    <table width=600 border=1 cellpadding="0" cellspacing="1" bordercolor="#99CCCC"><tr>
+        <td> <table width="100%" height="440" border="0" cellpadding="0" cellspacing="0" background="images/st-1.jpg">
+            <tr> 
+              <td height="440" valign="top"><div class=IL1> 
+                  <div align="right"><font color="#66FFFF">Le Maître raconte des histoires </font></div>
+                </div>
+                <p class=ep> 
+                <div class=IL2> <font color="#66FFFF"><strong></strong></font></div IL2></td>
+            </tr>
+          </table>
+          <div class=NL2> 
+            <div align="center">Prononcé par Maître Suprême Ching Hai, Retraite internationale de 5 jours, <br>Hsihu, Formose, le 24 février 2007 (à l'origine en anglais) </div>
+          </div>
+<p class=ep>Voici une autre histoire d'un roi musulman à Delhi. Dans tous les vrais ordres religieux, tous les saints illuminés de cet ordre agissent de la même façon. Ils gagnent leur propre argent comme propriétaires et économisent jusqu'à ce qu'ils aient assez pour partir et prêcher le Dharma, ou s'ils doivent compter sur les donations publiques, ils prennent alors seulement assez pour survivre afin de servir spirituellement les gens. <p class=ep> Ainsi, il y avait un roi qui était un musulman et qui gouvernait Delhi à cette époque. Son nom est Nasruddin. Je vous lirai aussi la préface de cette histoire, intitulée « D'honnêtes revenus ». Cela vient d'un dicton hébreu des juifs. Pouvez-vous imaginer cela ? Par hasard, nous parlons de tradition juive, aussi ! Voici le dicton : « Que votre conversation soit sans avidité et soyez satisfait des choses que vous avez. » Cela signifie que vous devez être heureux de ce que vous avez ; aucune avidité, aucun désir autre que ce que vous avez déjà ou ce qui vient naturellement à vous. » Car Ielle a dit : « Je ne vous laisserai jamais, ni ne vous abandonnerai. Le seigneur est mon berger, mon aide et je ne craindrai pas ce que l'humanité me fera. » </p>
+          <div align="center"><img src="images/st-2.jpg" width="530" height="328"> 
+          </div>
+          <p class=ep>Si vous avez foi en Dieu, vous devenez intrépides ; c'est ce que cela signifie. Soyez simplement heureux avec ce que vous avez, vous comprenez ? Toutes les religions disent la même chose : soyez honnêtes, gagnez votre vie et vivez simplement. Le roi Nasruddin était l'un de ceux qui ont vécu exactement comme nous disons, à partir de la tradition religieuse juive. Il était un gouverneur musulman qui est resté à Delhi, et il n'a jamais dépensé un centime de son trésor pour lui-même ; il gagnait sa propre vie. <p class=ep>Que faisait-il pour gagner sa vie ? Comment un roi gagne-t-il sa vie ? En fait, les rois et les familles royales n'ont généralement pas le droit de travailler, de crainte de perdre leur dignité et leur autorité. Vous devenez alors comme un roturier ; vous devenez comme un ouvrier, une personne qui gagne sa vie comme tout le monde. Et comment régnerait-il s'il faisait cela ? C'est une question ; nous allons voir !<p class=ep>Après s'être occupé des affaires de la cour durant la journée, il rentrait à la maison la nuit et copiait à la main le Coran et demandait à son domestique d'aller le vendre au marché. Donc c'était un travail spirituel. Et ce qu'il gagnait en faisant cela, il le dépensait pour lui et sa famille. N'est-ce pas un roi très honorable ? Nous devrions l'applaudir ! (Applaudissements)<p class=ep>En Chine, nous avons une tradition semblable. Il y avait un Maître qui travaillait toute la journée, et il disait que si un jour il ne travaillait pas, il ne mangerait pas pendant un jour. Il s'appelait Bai Zhang. Jusqu'à ce qu'il soit très vieux, il a continué à travailler, travailler et travailler. Un jour, il était si vieux déjà que ses disciples ont caché ses outils, car il sortait normalement pour planter des légumes. Donc ils ont caché ses outils pour qu'il ne puisse plus travailler. Et ce jour-là, il n'a pas mangé. Un jour sans travail ; un jour sans manger. Voilà. C'était sa devise. Et il a suivi cet exemple jusqu'à un âge très avancé.<p class=ep>Bien, maintenant retournons à Delhi. Un des domestiques du roi n'avait pas reçu d'argent depuis plusieurs mois. Un jour, il reçut une lettre de sa famille qui habitait loin, lui demandant de venir à la maison immédiatement pour une affaire urgente. Donc il avait besoin d'argent pour rentrer à la maison et le donner à sa famille, bien sûr. Vous devez savoir qu'un domestique de cette sorte de roi devait aussi être un très bon pratiquant spirituel. Donc probablement il ne faisait que travailler ; il ne se souciait même pas du salaire. Mais le roi lui donnait probablement de l'argent de poche, pour des casse-croûtes mensuels. (Le Maître rit)<p class=ep>Donc le domestique avait besoin de rentrer chez lui. Et le roi a dit : « Je suis désolé, je n'ai pas d'argent en ce moment. » (Le Maître rit) Oh ! Quel roi ! Pauvre roi. « Donc pourriez-vous attendre un peu ? » Alors quelques mois passèrent, et le domestique avait vraiment besoin de rentrer chez lui car il avait de nouveau reçu un message de sa famille disant qu'il devait venir immédiatement. Un membre de sa famille était malade et peut-être mourant, et ils avaient besoin d'argent pour cela. Donc il a prié le roi de le laisser rentrer à la maison.<p class=ep>Quand il était prêt à partir, le roi lui a donné deux roupies. Mon Dieu ! C'est environ deux centimes en argent formosan, même pas deux cents américains ! Le roi a dit au domestique : « Bien que cet argent soit très peu, il vient de mes revenus honnêtes. Donc, il attirera l'abondance. Il a la bénédiction céleste de Dieu. Chacun saura que c'est de l'argent très pur – le Ciel le sait. Ne vous inquiétez donc pas ; soyez simplement heureux avec cela ! »<p class=ep>Le domestique a été très étonné par une « si grande » somme : deux roupies qui équivalent à deux centimes formosans, ce qui ne représente rien, même à cette époque. Mais le roi a dit : « Dieu vous bénira dans l'abondance parce que mon argent est honnête. Donc poursuivez votre chemin et ne vous inquiétez pas ! Dieu vous bénira ! » Donc le domestique est parti. Il ne pouvait rien faire. Le roi n'avait aucun argent ; qu'aurait-il pu faire ? Donc il est parti avec deux roupies. Mais bien qu'ayant confiance et foi dans le roi, dans son esprit, il continuait de s'interroger : comment ferait-il face à sa famille en ayant les mains vides ? A son retour, sa famille s'attendait à quelques cadeaux. Etant un domestique du roi et rentrant chez lui les mains vides, quelles explications allait-il donner à sa famille ? Parce que les gens du monde sont ainsi : si vous travaillez pour le roi ou si vous avez une haute position dans le monde, votre famille ou vos parents s'attendent à ce que vous apportiez des cadeaux plus grands, de l'argent ou autre. C'est normal, non ?<p class=ep>Donc le domestique avait un moment difficile, marchant avec un cœur lourd, se demandant quoi faire. En attendant, en rentrant à la maison, il n'avait pas d'argent pour aucun article de luxe ni voiture ni quoi que ce soit comme ça. Mais il vit quelques grenades délicieuses, mûres, rouges, juteuses. Connaissez-vous les grenades ? Elles ressemblent aux pommes rouges et à l'intérieur elles ont des graines transparentes, semblables au rubis, petites, petites et avec de la chair. Elles ont une très belle construction à l'intérieur, comme le morceau d'un bijou quand vous l'ouvrez. Donc il a donné les deux roupies, il a tout donné ; il a pensé qu'il ne pouvait acheter qu'une seule grenade pour satisfaire son désir, mais comme deux roupies ne lui permettaient pas d'acheter beaucoup de toute façon, il n'y avait pas grand-chose d'autre à acheter. Et il a voulu acheter une grenade pour manger. Mais il fut étonné : pour deux roupies, il obtint un grand sac de grenades ! Il était très heureux ! Et il a mangé juste un peu, et il était satisfait.<p class=ep>Il se trouve qu'il avait toujours des grenades dans sa main et dans son sac, quand il a passé la frontière d'un autre pays. La reine de ce pays était alors très malade et les médecins de ce pays avaient expliqué au roi que seul le jus de grenade guérirait la maladie de la reine. Mais dans ce pays, il n'y avait rien de tel et ils ne savaient pas où trouver ce fruit. Donc ils ont placé des annonces partout : « Celui qui trouvera des grenades est prié de les apporter à la cour et le roi le récompensera abondamment. »<p class=ep>Le domestique avait un grand sac de grenades et il était déjà à côté du palais ! Donc il a demandé à entrer et les à donner à la reine, bien sûr. Et la reine en a pris autant qu'elle en avait besoin et le roi était si heureux que la reine se soit rétablie qu'il a récompensé ce domestique du roi indien de Delhi de mille roupies pour chaque grenade ! Ouah ! Maintenant pouvez-vous imaginer combien il possède ? Au moins dix mille ou douze mille roupies ; c'est beaucoup d'argent. Donc il était très, très heureux ! Il a donné un peu aux deux soldats envoyés par le roi pour l'accompagner à la maison, car on craignait qu'avec tant d'argent, il soit volé ou en danger. Quel honneur ! Arrivé chez lui, il a donné un peu d'argent aux deux soldats, et le reste à sa famille.<p class=ep>Tout le monde était ravi, louant le roi de Delhi pour sa générosité. Et le domestique n'a rien dit. (Le Maître et tout le monde rient). Comme la famille s'y attendait, le domestique du roi a rapporté beaucoup d'argent et de cadeaux, car il avait aussi acheté beaucoup de cadeaux sur le chemin du retour pour les leur donner. Tout le monde était heureux et louait le roi au Ciel. <p class=ep> Ainsi, à partir de seulement deux roupies, le domestique a gagné une belle moisson de propriétés et de biens, et a rendu heureux toute sa famille et son clan. Depuis lors, le domestique a bien sûr été plus fidèle au roi, bien qu'il ait déjà été fidèle auparavant. Mais il croyait probablement davantage dans la dignité, la sainteté, l'honnêteté et le cœur pur du roi. Fin de l'histoire ! (Applaudissements) <img src="images/end.gif" width="20" height="18" align="texttop"></p>
+          <!--- %----------
+ --->
+          <!--- %filename: sw1-182e.htm, (content="text/html; charset=big5")
+ --->
+          <p class=ep> 
+          <center>
+          </center>
+
+
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/st-3.jpg">
+            <tr>
+              <td height="234" valign="top"><table width=260 border=1 align="center" cellspacing="1" bordercolor="#B3D9BF" bgcolor="#6DA9DA">
+                  <tr> 
+                    <td class=navigate><a href='mr_67.htm' style='color:white'><<</a></td>
+                    <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+                    <td class=navigate><a href='sw_71.htm' style='color:white'>>></a></td>
+                  </tr>
+                  <tr> 
+                    <td class=navigate colspan=3 align=center> <span style='color:white;'>Envoyer cette page à un ami</span> <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+                  </tr>
+                </table>
+                <div align="center"></div>
+                <div align="center"></div></td>
+            </tr>
+          </table>
+          <!-- end of rim --->
+        </td>
+      </tr></table>

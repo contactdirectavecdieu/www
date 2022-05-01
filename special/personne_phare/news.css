@@ -1,0 +1,26 @@
+a:visited {  color: #3333FF; text-decoration: none}
+a:link {  color: #3333FF; text-decoration: none}
+a:active{ color: #3333FF; text-decoration: none}
+a:hover {  color: #5CA63E; text-decoration: underline}
+.bodytext {
+	font-family: "Georgia";
+	font-size: 12pt;
+	letter-spacing: 0.2pt;
+	word-spacing: 2pt;
+	line-height: 18pt;
+	font-weight: 500;
+}
+.sub {  font-family: "Times New Roman", "Times"; font-size: 12pt; line-height: 15pt; letter-spacing: 0.2pt;  word-spacing: 3pt}
+.title1 {  font-family: "Arial"; font-size: 16pt}
+.bodytext555555 {  font-family: "Georgia"; font-size: 12pt; line-height: 18pt; color: #6541A7}
+.title3 {  font-family: "º–∑¢≈È"; font-size: 18pt}
+.arial-small {
+	font-family: "Arial Narrow";
+	font-size: 10pt;
+	color: #A38C83;
+}
+.ch1 {  font-family: "Arial"; font-size: 12pt; line-height: 17pt}
+.arial {
+	font-family: "Arial";
+	font-size: 10pt;
+}

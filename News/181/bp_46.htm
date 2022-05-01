@@ -1,0 +1,158 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Le fondateur de Yahoo redonne à la société</title>
+<link href="mag_style.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY style='margin:0;'>
+<script>
+
+show_comment = 0;
+show_subject = 1;
+mode_button = 1;
+def_mode = "basic";	// can be "basic" or "advanced"
+use_page_title_as_subject = 1;
+def_subject = "";
+def_comment = "";
+def_preface = ""; 	// if this is skipped, it will use "http://service.godsdirectcontact.org.tw/web_refer/preface.html";
+language = "iso-8859-1"	// can be "eng", "gb", or "eng"
+
+function go_web_refer()
+{
+	if (use_page_title_as_subject > 0)
+	{
+		try {
+			def_subject = document.title;
+		}
+		catch(e)
+		{
+			def_subject = window.location.href;
+		}
+	}
+
+	document.web_refer.from_url.value = window.location.href;
+	document.web_refer.show_subject.value = show_subject;
+	document.web_refer.show_comment.value = show_comment;
+	document.web_refer.mode_btn.value = mode_button;
+	document.web_refer.mode.value = def_mode;
+	document.web_refer.lang.value = language;
+	document.web_refer.R.value = Math.random();
+	document.web_refer.def_subject.value = def_subject; 
+	document.web_refer.def_preface.value = def_preface;
+	document.web_refer.def_comment.value = def_comment;
+	open_window();
+	document.web_refer.submit();
+	return;
+}
+
+function open_window()
+{
+	try
+	{
+		nwin = window.open('', '_mail_form', 
+			'width=500,height=540,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0');
+		nwin.focus();
+	}
+	catch(e)
+	{
+		alert('To use this function, you should allow pop-up window.');
+	}
+
+	return true;
+}
+
+</script>
+
+<form target=_mail_form name=web_refer style='display:none;'
+	method=post action='http://service.godsdirectcontact.org.tw/web_refer/mail_form.php'>
+    <input type=hidden name=from_url value=''>
+    <input type=hidden name=show_subject value=''>
+    <input type=hidden name=show_comment value=''>
+    <input type=hidden name=mode_btn value=''>
+    <input type=hidden name=mode value=''>
+    <input type=hidden name=lang value=''>
+    <input type=hidden name=R value=''>
+    <input type=hidden name=def_subject value=''>
+    <input type=hidden name=def_preface value=''>
+    <input type=hidden name=def_comment value=''>
+</form>
+
+<tr><td>
+
+
+<style> hr {display:none;} </style>
+    <table width="600" border="2" cellpadding="0" cellspacing="1" bordercolor="#669999" bgcolor="#E6EDD3">
+      <tr> 
+        <td width="600"> <div align="center"> 
+            <table width="100%" border="4" cellpadding=" " cellspacing=" " bordercolor="#FFFFFF" bgcolor="#669999">
+              <tr> 
+                <td height="98" valign="middle"><div align="center"><font color="#FFFFCC"><img src="images/bp-a.gif" width="113" height="92" align="absmiddle"></font><font color="#A9CB21" size="7"><strong><em><font color="#FFFFFF">G</font></em></strong></font><font color="#FFFFFF" size="5">ens <em> <strong> <font size="7">M</font></strong></em>erveilleux <font size="4"><em>
+et</em></font> 
+                    <em><strong><font size="7">E</font></strong></em>vénements <em><strong><font size="7">M</font></strong></em>erveilleux</font><font color="#669999" size="5"> 
+                    </font></div></td>
+              </tr>
+            </table>
+            <strong><br>
+            </strong> 
+            <div align="right"> 
+              <div align="center"><strong><span class="IL2"><font color="#FF9966">Le fondateur de <img src="images/bp2-yahoo.gif" alt="Yahoo" width="100" height="43" align="absmiddle"> redonne <br>à la société<br>
+                </font><font color="#FF0000">&#9829;&#9829;&#9829;&#9829;&#9829;</font><font color="#CCFFFF"> 
+                </font></span></strong><span class="IL2"><font color="#CCFFFF"> 
+                </font></span></div>
+            </div>
+            <div align="center"> 
+              <p class="NL2"><font color="#99CCFF">Par le groupe d'informations de Formose (à l'origine en chinois)</font></p>
+            </div>
+          </div>
+          <div class=IL2> 
+            <div align="center"></div>
+          </div IL2>
+          <table width="20%" height="276" border="4" align="left" cellpadding="3" cellspacing="0" bordercolor="#FFFFFF" bgcolor="#669999">
+            <tr> 
+              <td height="268"><img src="images/bp2-1-181.jpg" width="220" height="260" align="left"></td>
+            </tr>
+          </table>
+          <p class=ep>Le 15 février de l'année d'Or 4 (2007), Jerry Yang – le cofondateur de Yahoo – et sa femme ont annoncé qu'ils feraient un don de 55 millions d'euros à l'Université de Stanford, où ils ont fait leurs études. La plus grande partie du don sera utilisé pour faire face au défi de l'environnement. Le président de l'Université de Stanford, John Hennessy, a dit que l'université cherchait à investir dans la recherche et l'étude des problématiques environnementales mondiales. Un centre d'étude environnementale de pointe a été créé pour attirer des experts de domaines différents pour travailler ensemble pour élaborer de nouvelles découvertes et méthodes de protection de l'environnement. Ces activités profiteront grandement à toute l'humanité. Et la contribution de M. Yang et de sa femme arrive à point nommé et présente une utilité considérable. <p class=ep> Le jeune et intelligent Jerry Yang est né à Taipei en 1968. En 1995, M. Yang et son ami ont fondé Yahoo, Inc., qui était le premier site Internet au monde à fournir un service de navigation sur la Toile. La création d'un concept de plate-forme utilisant la technologie informatique est à l'origine de nombreux changements pour les gens, tant en termes de communication, de recherche d'informations que de divertissement et d'achats de produits. Il a permis à des villages internationaux terrestres d'apparaître sur Internet. <p class=ep> La femme de Jerry Yang, Akiko Yamazaki, a grandi au Costa Rica. Elle a une grande compréhension des enjeux de la protection de l'environnement, et assure actuellement la fonction de directeur du Wildlife Conservation Network (réseau de protection de la faune et de la flore). Au cours des années récentes, le couple a mis à disposition des bourses à l'Université de Stanford et a fait des dons à des écoles et des organisations, comme la School of Engineering, l'Asia-Pacific Research Center et le Stanford Japan Center. <em><font color="#4B5221"><img src="images/end.gif" width="20" height="16" align="texttop"></font></em>
+          <p class=reference> Références : <br>
+            <a target=_blank href='http://epochtimes.com/b5/7/2/18/n1625656.htm'>http://epochtimes.com/b5/7/2/18/n1625656.htm</a> 
+            <br>
+            <a target=_blank href='http://www.cheers.com.tw/content/002/002026.asp'>http://www.cheers.com.tw/content/002/002026.asp</a> 
+            <a target=_blank href='http://epochtimes.com/b5/6/10/12/n1484813.htm'>http://epochtimes.com/b5/6/10/12/n1484813.htm</a> 
+            <br>
+            <a target=_blank href='http://news-service.stanford.edu/news/2007/february21/donors-022107.html'>http://news-service.stanford.edu/news/2007/february21/donors-022107.html</a> 
+            <a target=_blank href='http://www.iht.com/articles/ap/2007/02/16/america/NA-GEN-US-Yahoo-Stanford.php'>http://www.iht.com/articles/ap/2007/02/16/america/NA-GEN-US-Yahoo-Stanford.php</a>
+            <!--- %----------
+ --->
+            <!--- %filename: aw2-181e.htm, ()
+ --->
+          <p class=ep> 
+          <center>
+            <table width=260 border=1 cellspacing="1" bordercolor="#ECFAE7" bgcolor="#669999">
+              <tr>
+                <td class=navigate><a href='bp_44.htm' style='color:white'>&lt;&lt;</a></td>
+                <td class=navigate><a href='content.htm' style='color:white'>Sommaire</a></td>
+                <td class=navigate><a href='aw_48.htm' style='color:white'>&gt;&gt;</a></td>
+              </tr>
+              <tr>
+                <td class=navigate colspan=3 align=center> Envoyer cette page à un ami <img src="http://service.godsdirectcontact.org.tw/web_refer/web_refer.gif" 
+		style="cursor:hand;" align=middle
+		title="refer this page to friends"
+		onClick="go_web_refer();" width="22" height="25"> </td>
+              </tr>
+            </table>
+            <!--- %----------
+ --->
+            <!--- %filename: bp2-181e.htm, ()
+ --->
+          </center>
+          <p class=ep> 
+          <center>
+          </center>
+          <!-- end of rim --->
+        </td>
+      </tr>
+    </table> 
+  </td>
+</tr>
